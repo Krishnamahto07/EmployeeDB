@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  :root {
+    --bg-color: #efefef;
+    --btn-color: #518fd6;
+  }
+  body {
+    padding: 0 5%;
+    background-color: var(--bg-color);
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header > button {
+    padding: 10px 0;
+    background: var(--btn-color);
+    border-radius: 5px;
+    width: 150px;
+  }
+  header > h1 {
+    font-family: cursive;
+    font-size: 2rem;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+  }
+  .container > * > p {
+    border-bottom: 2px solid black;
+    padding: 4px 10px 4px 10px;
+  }
+  .employe--info,
+  .employe--list {
+    text-align: center;
+    width: 50%;
+    border: 1px solid black;
+    height: 450px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+  }
+  .employ--name__list{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .employe--name{
+    background: #a6cee9;
+    border: 1px solid rgb(181, 132, 228);
+    padding: 3px 0px;
+    margin: 2px 2px 2px 2px;
+  }
+  
+  :hover .delete--btn{
+    cursor: pointer;
+  }
+  .selected{
+    background: gray;
+  }
+  .emp--info__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    gap: 8px;
+  }
+  .employe-img{
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+  }
+  .emp--name{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: larger;
+  }
+  .addEmployee{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .form{
+    background: white;
+    padding: 10px;
+    width: 500px;
+    margin: 6rem auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 10px 10px 100px 10px rgb(13, 38, 46);
+    border:2px solid black;
+  }
+  .namefield{
+    display: flex;
+
+  }
+  .form > *{
+    width: 350px;
+    height: 30px;
+    padding: 0 10px;
+  }
+  .form > p{
+    font-size: large;
+    text-decoration: underline;
+    margin-bottom: -1rem;
+  }
+  .submit-btn{
+    background: gray;
+    cursor: pointer;
+  }
+
+  

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <h1>Employe Management Database</h1>
+        <button class="createEmployee">Add Employe</button>
+      </header>
+      <section class="container">
+        <section class="employe--list">
+          <p>Employe List</p>
+          <div class="employ--name__list" id="employeList"></div>
+        </section>
+        <section class="employe--info">
+          <p>Employe Information</p>
+          <div class="employ--info__data" id="employInfo"></div>
+        </section>
+      </section>
+
+      <div class=" addEmployee">
+
+        <form class="form addEmployee_create">
+            <p>Fill Details ...</p>
+            <input type="text" name="firstName" id="firstName" placeholder="Enter First Name ." />
+            <input type="text" name="lastName" id="lastName" placeholder="Enter First Name ." />
+            <input type="text" name="address" class="address" placeholder="Enter Address ..." />
+            <input type="number" name="age" placeholder="Enter Address ..." />
+            <input type="date" name="dob" placeholder="Enter DOB ..." />
+            <input type="number" name="contactNumber" placeholder="Enter contactNumber ..." />
+            <input type="email" name="email" placeholder="Enter Email ..." />
+            <input type="text" name="address" placeholder="Enter Address ..." />
+            <input type="number" name="salary" placeholder="Enter Salary ..." />
+            <input type="text" name="imageUrl" placeholder="Enter Image Url ..." />
+            <input type="number" name="id" placeholder="Enter Id ..." />
+
+            <input type="submit" class="submit-btn addEmployee_create--submit" value="Submit"/>
+
+        </form>
+      </div>
+
+
+
+    <link href="./style.css" rel="stylesheet" />
+    <script src="./script.js"></script>
+</body>
+</html>
